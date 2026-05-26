@@ -1,0 +1,62 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="ggn7WN1iMBSFRnRhBRYp">
+    <mxGraphModel dx="1582" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 02:&lt;br&gt;&lt;b&gt;TOÁN TỬ VÀ ĐIỀU KIỆN&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="450" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;LESSON 01 - 03: TOÁN TỬ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="150" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-3" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;1. Toán tử số học&lt;/b&gt;&lt;br&gt;• +, -, *, / (Cơ bản)&lt;br&gt;• % (Chia lấy dư)&lt;br&gt;• ++, -- (Tăng/Giảm 1 đơn vị)" vertex="1">
+          <mxGeometry height="70" width="180" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-5" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-4" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;2. Toán tử so sánh&lt;/b&gt;&lt;br&gt;• &amp;gt;, &amp;lt;, &amp;gt;=, &amp;lt;=&lt;br&gt;• == (So sánh bằng)&lt;br&gt;• != (So sánh khác)&lt;br&gt;👉 Trả về: True / False" vertex="1">
+          <mxGeometry height="80" width="180" x="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-7" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-6" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;3. Toán tử Logic&lt;/b&gt;&lt;br&gt;• &lt;b&gt;&amp;amp;&amp;amp; (AND):&lt;/b&gt; Đúng khi tất cả đúng&lt;br&gt;• &lt;b&gt;|| (OR):&lt;/b&gt; Đúng khi ít nhất 1 cái đúng&lt;br&gt;• &lt;b&gt;! (NOT):&lt;/b&gt; Đảo ngược giá trị logic" vertex="1">
+          <mxGeometry height="65" width="230" x="140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-9" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-8" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;LESSON 04: ĐIỀU KIỆN ĐA NHÁNH&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="720" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-11" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;Cấu trúc if - elif - else&lt;/b&gt;&lt;br&gt;• Kiểm tra tuần tự từ trên xuống&lt;br&gt;• Thỏa điều kiện nào chạy nhánh đó&lt;br&gt;• Nhánh &lt;i&gt;else&lt;/i&gt; cuối cùng gom trường hợp ngoại lệ" vertex="1">
+          <mxGeometry height="80" width="200" x="630" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-13" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-12" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;Cấu trúc match - case (switch)&lt;/b&gt;&lt;br&gt;• So sánh 1 giá trị/biến với nhiều hằng số&lt;br&gt;• Tối ưu hiệu năng, code sạch hơn dùng nhiều if-else&lt;br&gt;• Dùng &lt;i&gt;case _&lt;/i&gt; hoặc &lt;i&gt;default&lt;/i&gt; cho TH mặc định" vertex="1">
+          <mxGeometry height="80" width="230" x="850" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-15" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-14" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;LESSON 05: LỒNG NHAU &amp;amp; TOÁN TỬ 3 NGÔI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="400" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-17" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;Điều kiện lồng nhau (Nested If)&lt;/b&gt;&lt;br&gt;• Đặt cấu trúc if này trong cấu trúc if khác&lt;br&gt;• Sử dụng khi hành động cần thỏa mãn tuần tự nhiều lớp điều kiện khác nhau" vertex="1">
+          <mxGeometry height="70" width="260" x="240" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-19" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-18" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;" value="&lt;b&gt;Toán tử ba ngôi (Ternary)&lt;/b&gt;&lt;br&gt;• Cách viết tắt gọn cấu trúc if-else trên 1 dòng&lt;br&gt;• &lt;b&gt;Cú pháp:&lt;/b&gt; &lt;i&gt;Điều_Kiện ? Đúng : Sai&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Ví dụ:&lt;/b&gt; kq = (diem &amp;gt;= 5) ? &quot;Đậu&quot; : &quot;Rớt&quot;;" vertex="1">
+          <mxGeometry height="70" width="260" x="580" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-21" edge="1" parent="1" source="pdHeTGqh9WZWtnWTXE6j-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" target="pdHeTGqh9WZWtnWTXE6j-20" />
+        <mxCell id="pdHeTGqh9WZWtnWTXE6j-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;💡 LƯU Ý QUAN TRỌNG&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Độ ưu tiên toán tử:&lt;/b&gt; Số học —&amp;gt; So sánh —&amp;gt; Logic.&lt;br&gt;• Nhớ thêm trường hợp mặc định cho match-case để tránh bỏ sót lỗi.&lt;br&gt;• Tránh lạm dụng toán tử 3 ngôi lồng nhau quá nhiều gây rối mắt và khó bảo trì code." vertex="1">
+          <mxGeometry height="80" width="310" x="40" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
