@@ -1,0 +1,80 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="m81--9aCzqqEddk2tV4H">
+    <mxGraphModel dx="861" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 03:&lt;br&gt;&lt;b&gt;VÒNG LẶP CƠ BẢN&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="930" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Tư duy lặp&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Vì sao cần loop:&lt;/b&gt; Tránh lặp lại code thủ công (DRY).&lt;br&gt;• Xử lý công việc chu kỳ, duyệt dữ liệu tự động." vertex="1">
+          <mxGeometry height="70" width="250" x="500" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-45" edge="1" parent="1" source="4CjKb1PadKqA1RKo9KZV-43" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="4CjKb1PadKqA1RKo9KZV-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="490" />
+              <mxPoint x="625" y="420" />
+            </Array>
+            <mxPoint x="870" y="470" as="sourcePoint" />
+            <mxPoint x="640" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Vòng lặp for &amp;amp; range()&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Đặc điểm:&lt;/b&gt; Biết trước số lần lặp cụ thể.&lt;br&gt;• &lt;b&gt;Hàm range(start, stop, step):&lt;/b&gt;&lt;br&gt;  - Chạy từ &lt;i&gt;start&lt;/i&gt; đến &lt;i&gt;stop - 1&lt;/i&gt;.&lt;br&gt;  - Mặc định start = 0, step = 1.&lt;br&gt;• &lt;b&gt;Ứng dụng:&lt;/b&gt; Duyệt chuỗi, mảng, số lần cố định." vertex="1">
+          <mxGeometry height="100" width="250" x="800" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-47" edge="1" parent="1" source="4CjKb1PadKqA1RKo9KZV-43" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="4CjKb1PadKqA1RKo9KZV-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="410" />
+              <mxPoint x="925" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Vòng lặp while&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Đặc điểm:&lt;/b&gt; Lặp dựa trên điều kiện (chưa rõ số lần trước).&lt;br&gt;• &lt;b&gt;Cơ chế:&lt;/b&gt; Kiểm tra điều kiện trước, Đúng mới chạy.&lt;br&gt;• &lt;b&gt;Bắt buộc:&lt;/b&gt; Phải thay đổi biến điều kiện để tránh lặp vô hạn." vertex="1">
+          <mxGeometry height="90" width="260" x="1100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-49" edge="1" parent="1" source="4CjKb1PadKqA1RKo9KZV-43" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="4CjKb1PadKqA1RKo9KZV-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="410" />
+              <mxPoint x="1230" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: So sánh for vs while&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Dùng FOR khi:&lt;/b&gt; Biết rõ giới hạn dữ liệu hoặc số lần lặp.&lt;br&gt;• &lt;b&gt;Dùng WHILE khi:&lt;/b&gt; Số lần lặp phụ thuộc hành động thực tế (ví dụ: bắt nhập lại pass đến khi đúng)." vertex="1">
+          <mxGeometry height="90" width="220" x="1400" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-51" edge="1" parent="1" source="4CjKb1PadKqA1RKo9KZV-43" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="4CjKb1PadKqA1RKo9KZV-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="500" />
+              <mxPoint x="1510" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 05: Lỗi thường gặp khi dùng loop&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Lặp vô hạn (Infinite Loop):&lt;/b&gt; Không cập nhật biến điều kiện trong while.&lt;br&gt;• &lt;b&gt;Lỗi lệch 1 đơn vị (Off-by-one):&lt;/b&gt; Hiểu sai biên range() làm thừa/thiếu lượt.&lt;br&gt;• &lt;b&gt;Sai thụt lề (Indentation Error):&lt;/b&gt; Đặt khối câu lệnh thụt lề sai vị trí.&lt;br&gt;• &lt;b&gt;Thay đổi danh sách khi duyệt:&lt;/b&gt; Xóa phần tử mảng ngay khi đang loop for." vertex="1">
+          <mxGeometry height="110" width="350" x="865" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-53" edge="1" parent="1" source="4CjKb1PadKqA1RKo9KZV-43" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="4CjKb1PadKqA1RKo9KZV-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;💡 MẸO ĐIỀU KHIỂN VÒNG LẶP&lt;/b&gt;&lt;br&gt;• &lt;b&gt;break:&lt;/b&gt; Thoát khỏi vòng lặp ngay lập tức.&lt;br&gt;• &lt;b&gt;continue:&lt;/b&gt; Bỏ qua phần lệnh còn lại của lượt này, nhảy sang lượt tiếp theo." vertex="1">
+          <mxGeometry height="75" width="300" x="500" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="4CjKb1PadKqA1RKo9KZV-55" edge="1" parent="1" source="4CjKb1PadKqA1RKo9KZV-43" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="4CjKb1PadKqA1RKo9KZV-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="570" />
+              <mxPoint x="650" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
