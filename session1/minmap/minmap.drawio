@@ -1,0 +1,87 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="CKK2zrbFwpRvWGor8AjZ">
+    <mxGraphModel dx="732" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 01:&lt;br&gt;&lt;b&gt;GIỚI THIỆU VỀ PYTHON&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="740" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Giới thiệu Python&lt;/b&gt;&lt;br&gt;• Ngôn ngữ lập trình bậc cao, mã nguồn mở.&lt;br&gt;• Cú pháp rõ ràng, dễ học, giống tiếng Anh tự nhiên.&lt;br&gt;• Ứng dụng rộng rãi: Web, AI, Data Science, Automation." vertex="1">
+          <mxGeometry height="85" width="280" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-3" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="BbdwhsDY87xifgJ9cqkn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="470" />
+              <mxPoint x="460" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Cài đặt môi trường&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Python Interpreter:&lt;/b&gt; Trình thông dịch chạy mã nguồn.&lt;br&gt;• &lt;b&gt;IDE/Code Editor:&lt;/b&gt; VS Code, PyCharm giúp soạn thảo code.&lt;br&gt;• Kiểm tra cài đặt bằng lệnh: &lt;i&gt;python --version&lt;/i&gt;" vertex="1">
+          <mxGeometry height="85" width="280" x="660" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-5" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.35;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="BbdwhsDY87xifgJ9cqkn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="390" />
+              <mxPoint x="800" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Khai báo biến&lt;/b&gt;&lt;br&gt;• Biến là vùng nhớ dùng để lưu trữ dữ liệu.&lt;br&gt;• &lt;b&gt;Cú pháp:&lt;/b&gt; &lt;i&gt;ten_bien = gia_tri&lt;/i&gt; (Ví dụ: x = 10).&lt;br&gt;• Quy tắc đặt tên: Không bắt đầu bằng số, không trùng từ khóa, dùng kiểu snake_case." vertex="1">
+          <mxGeometry height="85" width="290" x="1040" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-7" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="BbdwhsDY87xifgJ9cqkn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="470" />
+              <mxPoint x="1185" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: Kiểu dữ liệu cơ bản&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Số nguyên (int):&lt;/b&gt; 5, -12&lt;br&gt;• &lt;b&gt;Số thực (float):&lt;/b&gt; 3.14, -0.5&lt;br&gt;• &lt;b&gt;Chuỗi ký tự (str):&lt;/b&gt; &quot;Hello&quot;, &#39;Python&#39;&lt;br&gt;• &lt;b&gt;Logic (bool):&lt;/b&gt; True hoặc False&lt;br&gt;👉 Hàm kiểm tra kiểu dữ liệu: &lt;i&gt;type()&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="260" x="1090" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-9" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="BbdwhsDY87xifgJ9cqkn-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 05: Nhập xuất dữ liệu&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Xuất dữ liệu (In ra):&lt;/b&gt; Hàm &lt;i&gt;print()&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Nhập dữ liệu (Từ bàn phím):&lt;/b&gt; Hàm &lt;i&gt;input()&lt;/i&gt;.&lt;br&gt;⚠️ &lt;b&gt;Lưu ý quan trọng:&lt;/b&gt; Dữ liệu nhận về từ hàm &lt;i&gt;input()&lt;/i&gt; mặc định luôn luôn là kiểu chuỗi ký tự (str)." vertex="1">
+          <mxGeometry height="95" width="280" x="710" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-11" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="BbdwhsDY87xifgJ9cqkn-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 06: Ép kiểu dữ liệu &amp;amp; f-string&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Ép kiểu (Type Casting):&lt;/b&gt; Chuyển đổi dữ liệu sang kiểu khác bằng hàm &lt;i&gt;int(), float(), str()&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;f-string (Định dạng chuỗi):&lt;/b&gt; Nhúng trực tiếp giá trị của biến vào chuỗi cực kỳ ngắn gọn.&lt;br&gt;  - &lt;i&gt;Cú pháp:&lt;/i&gt; f&quot;Chào {name}, bạn {age} tuổi.&quot;" vertex="1">
+          <mxGeometry height="100" width="310" x="300" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-13" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="BbdwhsDY87xifgJ9cqkn-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;💡 QUY TẮC CỐT LÕI PYTHON&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Thụt lề (Indentation):&lt;/b&gt; Cực kỳ nghiêm ngặt, dùng để phân chia các khối lệnh thay cho dấu ngoặc nhọn {}.&lt;br&gt;• Comment code bằng dấu &lt;b&gt;#&lt;/b&gt; để giải thích logic." vertex="1">
+          <mxGeometry height="75" width="290" x="320" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="BbdwhsDY87xifgJ9cqkn-15" edge="1" parent="1" source="BbdwhsDY87xifgJ9cqkn-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="BbdwhsDY87xifgJ9cqkn-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="650" />
+              <mxPoint x="465" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
