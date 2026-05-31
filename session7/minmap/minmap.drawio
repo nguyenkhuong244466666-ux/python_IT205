@@ -1,0 +1,65 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="9BOTRcBtL0O-csxljGR8">
+    <mxGraphModel dx="989" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 07:&lt;br&gt;&lt;b&gt;STRING (CHUỖI KÝ TỰ)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="830" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Tổng quan về string&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Là tập hợp các ký tự đặt trong dấu nháy đơn (&#39;...&#39;) hoặc nháy kép (&quot;...&quot;).&lt;br&gt;• &lt;b&gt;Chuỗi nhiều dòng:&lt;/b&gt; Dùng 3 dấu nháy đơn (&#39;&#39;&#39;...&#39;&#39;&#39;) hoặc 3 nháy kép (&quot;&quot;&quot;...&quot;&quot;&quot;).&lt;br&gt;• &lt;b&gt;Tính chất Immutability:&lt;/b&gt; Chuỗi trong Python là bất biến (không thể sửa đổi trực tiếp từng ký tự sau khi tạo).&lt;br&gt;• &lt;b&gt;Độ dài chuỗi:&lt;/b&gt; Dùng hàm &lt;i&gt;len(s)&lt;/i&gt; để đếm số ký tự." vertex="1">
+          <mxGeometry height="115" width="360" x="350" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-3" edge="1" parent="1" source="bD6Rx9dj286vTOAc9WnQ-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="bD6Rx9dj286vTOAc9WnQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="455" />
+              <mxPoint x="530" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Slicing &amp;amp; Toán tử chuỗi&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Index (Chỉ mục):&lt;/b&gt; Từ trái sang &lt;i&gt;0, 1, 2...&lt;/i&gt;; Từ phải sang &lt;i&gt;-1, -2, -3...&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Slicing (Cắt chuỗi):&lt;/b&gt; Cú pháp &lt;i&gt;s[start:stop:step]&lt;/i&gt; (Lấy từ start đến stop - 1).&lt;br&gt;  - &lt;i&gt;Mẹo đảo ngược chuỗi:&lt;/i&gt; s[::-1]&lt;br&gt;• &lt;b&gt;Toán tử ghép chuỗi (+):&lt;/b&gt; Nối hai hoặc nhiều chuỗi lại.&lt;br&gt;• &lt;b&gt;Toán tử nhân chuỗi (*):&lt;/b&gt; Lặp lại chuỗi nhiều lần (Ví dụ: &quot;abc&quot; * 3).&lt;br&gt;• &lt;b&gt;Toán tử in / not in:&lt;/b&gt; Kiểm tra một chuỗi con có xuất hiện trong chuỗi lớn hay không." vertex="1">
+          <mxGeometry height="145" width="400" x="1130" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-5" edge="1" parent="1" source="bD6Rx9dj286vTOAc9WnQ-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="bD6Rx9dj286vTOAc9WnQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="455" />
+              <mxPoint x="1330" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Các phương thức (String methods)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Chuyển đổi hoa thường:&lt;/b&gt; &lt;i&gt;.upper()&lt;/i&gt; (hoa), &lt;i&gt;.lower()&lt;/i&gt; (thường), &lt;i&gt;.capitalize()&lt;/i&gt; (hoa chữ đầu).&lt;br&gt;• &lt;b&gt;Cắt khoảng trắng thừa:&lt;/b&gt; &lt;i&gt;.strip()&lt;/i&gt;, &lt;i&gt;.lstrip()&lt;/i&gt;, &lt;i&gt;.rstrip()&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Thay thế &amp;amp; Tìm kiếm:&lt;/b&gt; &lt;i&gt;.replace(old, new)&lt;/i&gt;, &lt;i&gt;.find(sub)&lt;/i&gt; (trả về index hoặc -1).&lt;br&gt;• &lt;b&gt;Tách &amp;amp; Nối chuỗi:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.split(char):&lt;/i&gt; Cắt chuỗi thành một danh sách (List).&lt;br&gt;  - &lt;i&gt;char.join(list):&lt;/i&gt; Nối danh sách các chuỗi thành một chuỗi duy nhất.&lt;br&gt;• &lt;b&gt;Kiểm tra định dạng:&lt;/b&gt; &lt;i&gt;.isdigit()&lt;/i&gt; (chỉ chứa số), &lt;i&gt;.isalpha()&lt;/i&gt; (chỉ chứa chữ)." vertex="1">
+          <mxGeometry height="165" width="400" x="1150" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-7" edge="1" parent="1" source="bD6Rx9dj286vTOAc9WnQ-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="bD6Rx9dj286vTOAc9WnQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: Định dạng chuỗi (String formatting)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Cách 1: Toán tử % (Cũ)&lt;/b&gt; - Ví dụ: &quot;Tuổi: %d&quot; % 18&lt;br&gt;• &lt;b&gt;Cách 2: Phương thức .format()&lt;/b&gt; - Ví dụ: &quot;Chào {}&quot;.format(name)&lt;br&gt;• &lt;b&gt;Cách 3: f-string (Khuyên dùng - Tiêu chuẩn hiện đại)&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;Cú pháp:&lt;/i&gt; Đặt chữ &lt;b&gt;f&lt;/b&gt; trước chuỗi, bọc biến hoặc biểu thức trong cặp dấu &lt;b&gt;{}&lt;/b&gt;.&lt;br&gt;  - &lt;i&gt;Ví dụ:&lt;/i&gt; f&quot;Kết quả: {a + b}&quot;&lt;br&gt;  - &lt;i&gt;Định dạng số thực:&lt;/i&gt; f&quot;{pi:.2f}&quot; (Lấy đúng 2 chữ số thập phân)." vertex="1">
+          <mxGeometry height="130" width="380" x="330" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-9" edge="1" parent="1" source="bD6Rx9dj286vTOAc9WnQ-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="bD6Rx9dj286vTOAc9WnQ-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;💡 MẸO XỬ LÝ CHUỖI ĐẶC BIỆT (ESCAPE CHARACTERS)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;\n:&lt;/b&gt; Xuống dòng mới.&lt;br&gt;• &lt;b&gt;\t:&lt;/b&gt; Thụt lề một khoảng Tab.&lt;br&gt;• &lt;b&gt;\\:&lt;/b&gt; In ra dấu gạch chéo ngược.&lt;br&gt;• &lt;b&gt;Raw string (r&quot;...&quot;):&lt;/b&gt; Bỏ qua mọi ký tự escape (Ví dụ đường dẫn file: r&quot;C:\Users\name&quot;)." vertex="1">
+          <mxGeometry height="95" width="420" x="730" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="bD6Rx9dj286vTOAc9WnQ-11" edge="1" parent="1" source="bD6Rx9dj286vTOAc9WnQ-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="bD6Rx9dj286vTOAc9WnQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
