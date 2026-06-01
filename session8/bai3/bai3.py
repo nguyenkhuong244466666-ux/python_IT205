@@ -1,3 +1,72 @@
+# 1. INPUT
+# - Lựa chọn menu (1 - 5)
+# - Tên người gửi
+# - Số điện thoại người gửi
+# - Địa chỉ lấy hàng
+# - Tên người nhận
+# - Số điện thoại người nhận
+# - Địa chỉ giao hàng
+# - Mã đơn hàng
+# - Ghi chú giao hàng
+# - Từ khóa cần tìm
+# - Từ khóa thay thế
+
+# 2. OUTPUT
+# - Báo cáo thông tin đơn hàng đã chuẩn hóa
+# - Mã đơn hàng sau khi chuẩn hóa
+# - Số điện thoại đã được ẩn thông tin
+# - Kết quả tìm kiếm và thay thế từ khóa
+# - Các thông báo lỗi khi dữ liệu không hợp lệ
+
+# 3. GIẢI PHÁP
+# - Sử dụng vòng lặp while True để hiển thị menu liên tục.
+# - Sử dụng match-case để xử lý từng chức năng.
+# - Dùng strip() để loại bỏ khoảng trắng đầu cuối.
+# - Dùng title() để chuẩn hóa tên người gửi và người nhận.
+# - Dùng split() và join() để chuẩn hóa địa chỉ.
+# - Dùng upper() để chuẩn hóa mã đơn hàng.
+# - Dùng replace() để thay khoảng trắng bằng dấu "-".
+# - Dùng isdigit() để kiểm tra số điện thoại hợp lệ.
+# - Dùng len() để kiểm tra độ dài số điện thoại và ghi chú.
+# - Dùng count() để đếm số lần xuất hiện từ khóa.
+# - Dùng replace() để thay thế từ khóa trong ghi chú.
+# - Kiểm tra dữ liệu hợp lệ trước khi xử lý.
+
+# 4. THUẬT TOÁN
+# Bước 1: Hiển thị menu chức năng.
+#
+# Bước 2: Người dùng chọn chức năng.
+#
+# Bước 3:
+# - Nếu chọn 1:
+#   + Nhập thông tin đơn hàng.
+#   + Kiểm tra dữ liệu rỗng.
+#   + Chuẩn hóa dữ liệu.
+#   + Hiển thị báo cáo thống kê.
+#
+# - Nếu chọn 2:
+#   + Nhập mã đơn hàng.
+#   + Chuẩn hóa mã theo yêu cầu.
+#   + Hiển thị kết quả.
+#
+# - Nếu chọn 3:
+#   + Kiểm tra số điện thoại người gửi và người nhận.
+#   + Nếu hợp lệ thì ẩn thông tin.
+#   + Nếu không hợp lệ thì thông báo lỗi.
+#
+# - Nếu chọn 4:
+#   + Kiểm tra đã có ghi chú giao hàng hay chưa.
+#   + Nhập từ khóa cần tìm và thay thế.
+#   + Tìm kiếm trong ghi chú.
+#   + Nếu tồn tại thì thay thế và hiển thị kết quả.
+#   + Nếu không tồn tại thì thông báo.
+#
+# - Nếu chọn 5:
+#   + Hiển thị "Thoát chương trình".
+#   + Kết thúc chương trình bằng break.
+#
+# Bước 4: Quay lại menu cho đến khi người dùng chọn thoát.
+
 sender_name = ""
 sender_phone = ""
 pickup_address = ""

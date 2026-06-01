@@ -1,3 +1,47 @@
+# ==========================================
+# PHÂN TÍCH VÀ THIẾT KẾ GIẢI PHÁP
+# ==========================================
+
+# Input:
+# - Lựa chọn menu (1-5)
+# - Tên shop
+# - Tên sản phẩm
+# - Mô tả sản phẩm
+# - Danh mục sản phẩm
+# - Danh sách từ khóa
+# - Mã giảm giá
+# - Từ khóa cần tìm và thay thế
+
+# Output:
+# - Thông tin sản phẩm đã được chuẩn hóa
+# - Tên shop chuẩn hóa
+# - Kết quả kiểm tra mã giảm giá
+# - Kết quả tìm kiếm và thay thế từ khóa
+# - Thông báo lỗi khi dữ liệu không hợp lệ
+
+# Giải pháp:
+# - Sử dụng vòng lặp while True để tạo menu.
+# - Sử dụng match-case để xử lý các chức năng.
+# - Dùng strip() để xóa khoảng trắng thừa.
+# - Dùng title() để chuẩn hóa tên sản phẩm.
+# - Dùng lower() và upper() để chuyển đổi chữ hoa/thường.
+# - Dùng split() để tách danh sách từ khóa.
+# - Dùng replace() để thay thế từ khóa.
+# - Dùng len() để tính độ dài chuỗi và số lượng từ khóa.
+# - Kiểm tra dữ liệu hợp lệ trước khi xử lý.
+
+# Thuật toán:
+# B1. Hiển thị menu.
+# B2. Người dùng chọn chức năng.
+# B3. Kiểm tra lựa chọn hợp lệ.
+# B4. Thực hiện chức năng tương ứng:
+#     - Nhập và thống kê sản phẩm.
+#     - Chuẩn hóa tên shop.
+#     - Kiểm tra mã giảm giá.
+#     - Tìm kiếm và thay thế từ khóa.
+# B5. Quay lại menu.
+# B6. Nếu chọn 5 thì kết thúc chương trình.
+
 shop_name = ""
 product_name = ""
 description = ""
