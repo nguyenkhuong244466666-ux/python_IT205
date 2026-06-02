@@ -1,0 +1,65 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="nqHRYaTu2jioBwARW5io">
+    <mxGraphModel dx="744" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 09:&lt;br&gt;&lt;b&gt;LIST (DANH SÁCH)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="800" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Khái niệm List &amp;amp; Khởi tạo&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Là cấu trúc dữ liệu dùng để lưu trữ nhiều phần tử trong một biến duy nhất. Cú pháp bọc trong cặp dấu ngoặc vuông &lt;b&gt;[ ]&lt;/b&gt;.&lt;br&gt;• &lt;b&gt;Đặc điểm:&lt;/b&gt; Có thứ tự (ordered), có thể thay đổi (mutable), cho phép phần tử trùng lặp, chứa được nhiều kiểu dữ liệu khác nhau.&lt;br&gt;• &lt;b&gt;Cách khởi tạo:&lt;/b&gt;&lt;br&gt;  - List rỗng: &lt;i&gt;my_list = []&lt;/i&gt; hoặc &lt;i&gt;my_list = list()&lt;/i&gt;&lt;br&gt;  - List có sẵn phần tử: &lt;i&gt;numbers = [1, 2, 3, 4]&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Độ dài List:&lt;/b&gt; Dùng hàm &lt;i&gt;len(my_list)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="300" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-3" edge="1" parent="1" source="_aMfNCyHPzf1ORghQ9h5-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="_aMfNCyHPzf1ORghQ9h5-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="480" />
+              <mxPoint x="490" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Thao tác Thêm, Sửa, Xoá&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Truy cập &amp;amp; Sửa (Index):&lt;/b&gt; &lt;i&gt;list[0] = new_value&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Các phương thức THÊM:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.append(x):&lt;/i&gt; Thêm x vào cuối danh sách.&lt;br&gt;  - &lt;i&gt;.insert(index, x):&lt;/i&gt; Chèn x vào vị trí index cụ thể.&lt;br&gt;  - &lt;i&gt;.extend(iterable):&lt;/i&gt; Nối một danh sách khác vào đuôi.&lt;br&gt;• &lt;b&gt;Các phương thức XOÁ:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.pop(index):&lt;/i&gt; Xoá phần tử tại index và trả về giá trị của nó (mặc định xoá cuối nếu để trống).&lt;br&gt;  - &lt;i&gt;.remove(x):&lt;/i&gt; Tìm và xoá phần tử đầu tiên có giá trị x.&lt;br&gt;  - &lt;i&gt;.clear():&lt;/i&gt; Xoá sạch bách toàn bộ phần tử trong List.&lt;br&gt;  - Từ khoá &lt;i&gt;del list[index]:&lt;/i&gt; Xoá phần tử theo chỉ định." vertex="1">
+          <mxGeometry height="195" width="410" x="1100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-5" edge="1" parent="1" source="_aMfNCyHPzf1ORghQ9h5-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="_aMfNCyHPzf1ORghQ9h5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="480" />
+              <mxPoint x="1305" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Duyệt List với vòng lặp for&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Cách 1: Duyệt trực tiếp theo phần tử (For-each)&lt;/b&gt;&lt;br&gt;  &lt;i&gt;for item in my_list:&lt;/i&gt; -&gt; Tiện lợi khi chỉ cần lấy giá trị, không cần quan tâm vị trí.&lt;br&gt;• &lt;b&gt;Cách 2: Duyệt qua chỉ mục (Index) kết hợp range()&lt;/b&gt;&lt;br&gt;  &lt;i&gt;for i in range(len(my_list)):&lt;/i&gt; -&gt; Cần thiết khi muốn thay đổi giá trị của phần tử trực tiếp trong lúc loop hoặc cần dùng chỉ số &lt;i&gt;i&lt;/i&gt;." vertex="1">
+          <mxGeometry height="115" width="390" x="1120" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-7" edge="1" parent="1" source="_aMfNCyHPzf1ORghQ9h5-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="_aMfNCyHPzf1ORghQ9h5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: Hàm enumerate()&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Mục đích:&lt;/b&gt; Giúp lấy ra đồng thời cả **chỉ mục (index)** và **giá trị (value)** của phần tử trong quá trình duyệt vòng lặp.&lt;br&gt;• &lt;b&gt;Cú pháp chuẩn:&lt;/b&gt;&lt;br&gt;  &lt;i&gt;for index, value in enumerate(my_list):&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Thay đổi chỉ số bắt đầu:&lt;/b&gt; Mặc định bắt đầu từ 0, có thể chỉnh lại bằng tham số &lt;i&gt;start&lt;/i&gt; (Ví dụ: &lt;i&gt;enumerate(my_list, start=1)&lt;/i&gt;)." vertex="1">
+          <mxGeometry height="115" width="380" x="300" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-9" edge="1" parent="1" source="_aMfNCyHPzf1ORghQ9h5-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="_aMfNCyHPzf1ORghQ9h5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;💡 CÁC THAO TÁC NÂNG CAO TIỆN ÍCH VỚI LIST&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Sắp xếp:&lt;/b&gt; &lt;i&gt;.sort()&lt;/i&gt; (thay đổi list gốc) hoặc &lt;i&gt;sorted(list)&lt;/i&gt; (trả về list mới đã sắp xếp).&lt;br&gt;• &lt;b&gt;Đảo ngược:&lt;/b&gt; &lt;i&gt;.reverse()&lt;/i&gt; hoặc dùng kỹ thuật Slicing &lt;i&gt;list[::-1]&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Thống kê số học:&lt;/b&gt; &lt;i&gt;max(list)&lt;/i&gt;, &lt;i&gt;min(list)&lt;/i&gt;, &lt;i&gt;sum(list)&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Tìm vị trí / Đếm lượt xuất hiện:&lt;/b&gt; &lt;i&gt;.index(x)&lt;/i&gt;, &lt;i&gt;.count(x)&lt;/i&gt;." vertex="1">
+          <mxGeometry height="100" width="440" x="690" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="_aMfNCyHPzf1ORghQ9h5-11" edge="1" parent="1" source="_aMfNCyHPzf1ORghQ9h5-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="_aMfNCyHPzf1ORghQ9h5-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
