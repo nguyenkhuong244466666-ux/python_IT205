@@ -1,0 +1,65 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="5ChFbPX-UxOcwKq1nL2N">
+    <mxGraphModel dx="500" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vGPM3K6wj7wpn9zTO280-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 11:&lt;br&gt;&lt;b&gt;TUPLE &amp;amp; DICT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="710" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Tuple (Bộ dữ liệu bất biến)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Là chuỗi dữ liệu có thứ tự, bọc trong dấu ngoặc đơn &lt;b&gt;( )&lt;/b&gt;.&lt;br&gt;• &lt;b&gt;Đặc điểm:&lt;/b&gt; &lt;b&gt;Bất biến (Immutable)&lt;/b&gt; - Không thể thêm, sửa, xoá phần tử sau khi tạo. Cho phép trùng lặp dữ liệu.&lt;br&gt;• &lt;b&gt;Khởi tạo đặc biệt:&lt;/b&gt; Tuple có 1 phần tử phải có dấu phẩy đi kèm, ví dụ: &lt;i&gt;my_tuple = (1,)&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Mục đích:&lt;/b&gt; Bảo vệ dữ liệu không bị thay đổi trong suốt chương trình, tối ưu hiệu năng tốt hơn List." vertex="1">
+          <mxGeometry height="135" width="400" x="200" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-3" edge="1" parent="1" source="vGPM3K6wj7wpn9zTO280-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="vGPM3K6wj7wpn9zTO280-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="540" />
+              <mxPoint x="400" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Dictionary cơ bản&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Lưu trữ dữ liệu dưới dạng các cặp &lt;b&gt;key: value&lt;/b&gt; (khóa: giá trị). Bọc trong dấu ngoặc nhọn &lt;b&gt;{ }&lt;/b&gt;.&lt;br&gt;• &lt;b&gt;Quy tắc của Key:&lt;/b&gt; Phải là duy nhất (không trùng lặp) và thuộc kiểu dữ liệu bất biến (như string, int, tuple).&lt;br&gt;• &lt;b&gt;Đặc điểm:&lt;/b&gt; Từ Python 3.7+ dữ liệu có thứ tự (ordered), có thể thay đổi giá trị (mutable).&lt;br&gt;• &lt;b&gt;Truy cập nhanh:&lt;/b&gt;&lt;br&gt;  - Dùng &lt;i&gt;my_dict[key]&lt;/i&gt;: Bị lỗi &lt;i&gt;KeyError&lt;/i&gt; nếu key không tồn tại.&lt;br&gt;  - Dùng &lt;i&gt;my_dict.get(key, default)&lt;/i&gt;: An toàn hơn, trả về default nếu không tìm thấy key." vertex="1">
+          <mxGeometry height="175" width="410" x="1010" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-5" edge="1" parent="1" source="vGPM3K6wj7wpn9zTO280-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="vGPM3K6wj7wpn9zTO280-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="540" />
+              <mxPoint x="1215" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Các thao tác CRUD với Dictionary&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Create / Update:&lt;/b&gt; &lt;i&gt;my_dict[key] = value&lt;/i&gt; (Nếu key chưa có -&gt; Thêm mới; Nếu có rồi -&gt; Đè giá trị mới).&lt;br&gt;• &lt;b&gt;Read (Duyệt vòng lặp for):&lt;/b&gt;&lt;br&gt;  - Duyệt các key: &lt;i&gt;for k in my_dict.keys():&lt;/i&gt;&lt;br&gt;  - Duyệt các value: &lt;i&gt;for v in my_dict.values():&lt;/i&gt;&lt;br&gt;  - Duyệt cặp key-value: &lt;i&gt;for k, v in my_dict.items():&lt;/i&gt;&lt;br&gt;• &lt;b&gt;Delete:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.pop(key):&lt;/i&gt; Xoá key chỉ định và trả về value của nó.&lt;br&gt;  - &lt;i&gt;del my_dict[key]:&lt;/i&gt; Từ khóa xóa trực tiếp cặp key-value.&lt;br&gt;  - &lt;i&gt;.clear():&lt;/i&gt; Xoá sạch toàn bộ dữ liệu trong từ điển." vertex="1">
+          <mxGeometry height="175" width="400" x="1020" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-7" edge="1" parent="1" source="vGPM3K6wj7wpn9zTO280-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="vGPM3K6wj7wpn9zTO280-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: Khi nào nên sử dụng Dictionary?&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khi cần liên kết dữ liệu:&lt;/b&gt; Khi các phần tử đi theo cặp có mối quan hệ logic chặt chẽ (ví dụ: Mã sinh viên - Tên sinh viên, Từ tiếng Anh - Nghĩa tiếng Việt).&lt;br&gt;• &lt;b&gt;Khi cần tra cứu siêu tốc:&lt;/b&gt; Tìm kiếm phần tử theo Key trong từ điển có tốc độ cực nhanh (độ phức tạp O(1)), tối ưu hơn rất nhiều so với duyệt List tuần tự.&lt;br&gt;• &lt;b&gt;Khi quản lý cấu trúc phức tạp:&lt;/b&gt; Mô tả các đối tượng chứa nhiều thuộc tính đa dạng như thông tin một User, một sản phẩm (gần giống cấu trúc JSON)." vertex="1">
+          <mxGeometry height="140" width="400" x="200" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-9" edge="1" parent="1" source="vGPM3K6wj7wpn9zTO280-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="vGPM3K6wj7wpn9zTO280-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;📊 TÓM TẮT NHANH ĐỂ KHÔNG BỊ NHẦM LẪN&lt;/b&gt;&lt;br&gt;• &lt;b&gt;List [ ] :&lt;/b&gt; Thay đổi được, có thứ tự, dùng khi quản lý danh sách phần tử đơn.&lt;br&gt;• &lt;b&gt;Tuple ( ) :&lt;/b&gt; KHÔNG thay đổi được, dùng để bảo vệ dữ liệu cố định.&lt;br&gt;• &lt;b&gt;Dict {k: v} :&lt;/b&gt; Thay đổi được, tra cứu siêu nhanh bằng khóa (Key)." vertex="1">
+          <mxGeometry height="85" width="400" x="620" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPM3K6wj7wpn9zTO280-11" edge="1" parent="1" source="vGPM3K6wj7wpn9zTO280-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="vGPM3K6wj7wpn9zTO280-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
