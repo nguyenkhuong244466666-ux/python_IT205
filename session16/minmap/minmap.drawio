@@ -1,0 +1,43 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="zYG9O7yjVQzP6tf-JeIj">
+    <mxGraphModel dx="1895" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 16:&lt;br&gt;&lt;b&gt;CÁC HÀM NÂNG CAO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="950" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Các hàm xử lý chuỗi (String Functions)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Nhóm biến đổi chữ hoa/thường:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.upper()&lt;/i&gt; / &lt;i&gt;.lower()&lt;/i&gt;: Chuyển toàn bộ thành chữ HOA / chữ thường.&lt;br&gt;  - &lt;i&gt;.capitalize()&lt;/i&gt;: Viết hoa chữ cái đầu tiên của chuỗi.&lt;br&gt;  - &lt;i&gt;.title()&lt;/i&gt;: Viết hoa chữ cái đầu tiên của từng từ.&lt;br&gt;• &lt;b&gt;Nhóm tìm kiếm và kiểm tra:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.find(sub)&lt;/i&gt; / &lt;i&gt;.index(sub)&lt;/i&gt;: Tìm vị trí đầu tiên của chuỗi con (&lt;i&gt;find&lt;/i&gt; trả về -1 nếu không thấy, &lt;i&gt;index&lt;/i&gt; báo lỗi).&lt;br&gt;  - &lt;i&gt;.startswith(sub)&lt;/i&gt; / &lt;i&gt;.endswith(sub)&lt;/i&gt;: Kiểm tra chuỗi có bắt đầu hoặc kết thúc bằng ký tự chỉ định (True/False).&lt;br&gt;• &lt;b&gt;Nhóm cắt, tách và thay thế:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.strip()&lt;/i&gt;: Loại bỏ khoảng trắng thừa ở hai đầu chuỗi.&lt;br&gt;  - &lt;i&gt;.replace(old, new)&lt;/i&gt;: Tìm kiếm và thay thế chuỗi cũ bằng chuỗi mới.&lt;br&gt;  - &lt;i&gt;.split(sep)&lt;/i&gt;: Tách chuỗi thành một &lt;b&gt;List&lt;/b&gt; dựa trên ký tự phân cách &lt;i&gt;sep&lt;/i&gt;.&lt;br&gt;  - &lt;i&gt;sep.join(list)&lt;/i&gt;: Nối các phần tử của một List thành chuỗi nối nhau bằng ký tự &lt;i&gt;sep&lt;/i&gt;." vertex="1">
+          <mxGeometry height="250" width="410" x="440" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-4" edge="1" parent="1" source="c0-JjWyR3XcDFePe8R_R-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="c0-JjWyR3XcDFePe8R_R-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Các hàm xử lý list (List Functions &amp;amp; Built-ins)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Nhóm thống kê toán học cơ bản:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;len(list)&lt;/i&gt;: Trả về số lượng phần tử (độ dài) của List.&lt;br&gt;  - &lt;i&gt;max(list)&lt;/i&gt; / &lt;i&gt;min(list)&lt;/i&gt;: Tìm phần tử có giá trị lớn nhất / nhỏ nhất trong List.&lt;br&gt;  - &lt;i&gt;sum(list)&lt;/i&gt;: Tính tổng toàn bộ các phần tử số trong List.&lt;br&gt;• &lt;b&gt;Nhóm sắp xếp và đảo ngược:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;.sort()&lt;/i&gt;: Sắp xếp trực tiếp các phần tử trong List gốc theo thứ tự tăng dần.&lt;br&gt;  - &lt;i&gt;sorted(list)&lt;/i&gt;: Trả về một List mới đã được sắp xếp, không ảnh hưởng đến List gốc.&lt;br&gt;  - &lt;i&gt;.reverse()&lt;/i&gt; / &lt;i&gt;reversed(list)&lt;/i&gt;: Đảo ngược thứ tự các phần tử (trực tiếp trên List gốc / trả về một iterator mới).&lt;br&gt;• &lt;b&gt;Nhóm phân tích nâng cao (Higher-Order &amp;amp; Built-ins):&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;map(function, iterable)&lt;/i&gt;: Áp dụng một hàm lên từng phần tử của tập dữ liệu.&lt;br&gt;  - &lt;i&gt;filter(function, iterable)&lt;/i&gt;: Lọc ra các phần tử thỏa mãn điều kiện của hàm.&lt;br&gt;  - &lt;i&gt;zip(list1, list2)&lt;/i&gt;: Ghép cặp các phần tử có vị trí tương ứng từ nhiều danh sách lại với nhau thành các tuple." vertex="1">
+          <mxGeometry height="240" width="420" x="1260" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-6" edge="1" parent="1" source="c0-JjWyR3XcDFePe8R_R-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="c0-JjWyR3XcDFePe8R_R-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;⚠️ LƯU Ý QUAN TRỌNG KHI XỬ LÝ&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Tính bất biến của String:&lt;/b&gt; Tất cả các hàm chuỗi (&lt;i&gt;.replace(), .upper(),...&lt;/i&gt;) đều &lt;b&gt;trả về chuỗi mới&lt;/b&gt; chứ không sửa đổi chuỗi ban đầu. Bạn cần gán lại biến để lưu giá trị: &lt;i&gt;s = s.upper()&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Hàm In-place vs Return mới của List:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;list.sort()&lt;/i&gt; thay đổi trực tiếp list cũ và trả về &lt;i&gt;None&lt;/i&gt;.&lt;br&gt;  - &lt;i&gt;sorted(list)&lt;/i&gt; giữ nguyên list cũ và tạo ra một list hoàn toàn mới." vertex="1">
+          <mxGeometry height="110" width="450" x="835" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="c0-JjWyR3XcDFePe8R_R-8" edge="1" parent="1" source="c0-JjWyR3XcDFePe8R_R-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="c0-JjWyR3XcDFePe8R_R-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
