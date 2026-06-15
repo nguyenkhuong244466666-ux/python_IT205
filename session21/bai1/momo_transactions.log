@@ -1,0 +1,7 @@
+2026-06-15 21:50:48,363 - INFO - Deposit successful: +500000 VND.
+2026-06-15 21:51:00,643 - ERROR - InvalidAmountError: Attempted to process -100000 VND.
+2026-06-15 21:53:31,140 - INFO - Deposit successful: +20000000 VND.
+2026-06-15 21:53:44,804 - WARNING - High value transaction detected: 10000000 VND to 0912345678
+2026-06-15 21:53:44,804 - INFO - Transfer successful: -10000000 VND to 0912345678.
+2026-06-15 21:55:19,936 - ERROR - InsufficientBalanceError: Attempted to transfer 10000000 VND with balance 9500000 VND.
+2026-06-15 21:55:31,188 - ERROR - InvalidAmountError: Attempted to process -500000 VND.
