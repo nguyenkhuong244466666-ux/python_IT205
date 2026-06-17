@@ -1,0 +1,76 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="5S97w4GXLd-RKoxfWztx">
+    <mxGraphModel dx="768" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GIEQ088IL78SXEgQTfQz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 24:&lt;br&gt;&lt;b&gt;OOP &amp;amp; TÍNH ĐÓNG GÓI&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="1290" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Tổng quan về OOP&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Lập trình hướng đối tượng (OOP) là một phương pháp luận lập trình dựa trên khái niệm về các &#39;đối tượng&#39;, giúp mô hình hóa các thực thể trong thế giới thực vào trong code.&lt;br&gt;• &lt;b&gt;4 tính chất cốt lõi của OOP:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;Tính đóng gói (Encapsulation):&lt;/i&gt; Che giấu thông tin và bảo vệ dữ liệu.&lt;br&gt;  - &lt;i&gt;Tính kế thừa (Inheritance):&lt;/i&gt; Tái sử dụng mã nguồn từ lớp cha.&lt;br&gt;  - &lt;i&gt;Tính đa hình (Polymorphism):&lt;/i&gt; Một cơ chế, nhiều hình thức thực thi.&lt;br&gt;  - &lt;i&gt;Tính trừu tượng (Abstraction):&lt;/i&gt; Tập trung vào những thứ cốt lõi, bỏ qua chi tiết rườm rà.&lt;br&gt;• &lt;b&gt;Lợi ích:&lt;/b&gt; Code có tính mô-đun cao, dễ quản lý, dễ bảo trì và mở rộng khi dự án lớn dần." vertex="1">
+          <mxGeometry height="190" width="440" x="690" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-4" edge="1" parent="1" source="GIEQ088IL78SXEgQTfQz-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="GIEQ088IL78SXEgQTfQz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="925" />
+              <mxPoint x="910" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Method (Phương thức)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Định nghĩa:&lt;/b&gt; Là các hàm được định nghĩa bên trong một lớp, đại diện cho các hành vi hoặc hành động mà đối tượng thuộc lớp đó có thể thực hiện.&lt;br&gt;• &lt;b&gt;Instance Method (Phương thức đối tượng):&lt;/b&gt;&lt;br&gt;  - Phải có tham số đầu tiên là &lt;b&gt;self&lt;/b&gt; (đại diện cho chính thực thể đang gọi hàm).&lt;br&gt;  - Dùng để truy cập hoặc sửa đổi các thuộc tính của riêng đối tượng đó.&lt;br&gt;  - Gọi thông qua đối tượng: &lt;i&gt;object_name.method_name()&lt;/i&gt;." vertex="1">
+          <mxGeometry height="140" width="440" x="690" y="1045" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-6" edge="1" parent="1" source="GIEQ088IL78SXEgQTfQz-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="GIEQ088IL78SXEgQTfQz-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="1085" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Class và Object&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Class (Lớp):&lt;/b&gt; Là một bản thiết kế, khuôn mẫu hoặc một kiểu dữ liệu tự định nghĩa để tạo ra các đối tượng. Khai báo bằng từ khóa &lt;i&gt;class TênLớp:&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Object (Đối tượng):&lt;/b&gt; Là một thực thể cụ thể (an instance) được tạo ra từ một Class, sở hữu các thuộc tính và hành vi do Class đó định nghĩa.&lt;br&gt;• &lt;b&gt;Hàm khởi tạo __init__ (Constructor):&lt;/b&gt;&lt;br&gt;  - Tự động kích hoạt ngay khi một Object mới được khởi tạo.&lt;br&gt;  - Nhiệm vụ: Gán các giá trị ban đầu cho thuộc tính của đối tượng thông qua từ khóa &lt;i&gt;self.tên_thuộc_tính = giá_trị&lt;/i&gt;." vertex="1">
+          <mxGeometry height="170" width="440" x="1660" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-8" edge="1" parent="1" source="GIEQ088IL78SXEgQTfQz-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="GIEQ088IL78SXEgQTfQz-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="925" />
+              <mxPoint x="1880" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: Static method (Phương thức tĩnh)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Là phương thức thuộc về toàn bộ Class chứ không phụ thuộc vào một đối tượng cụ thể nào.&lt;br&gt;• &lt;b&gt;Đặc điểm cú pháp:&lt;/b&gt;&lt;br&gt;  - Phải đứng trước bởi decorator &lt;b&gt;@staticmethod&lt;/b&gt;.&lt;br&gt;  - Không nhận vào tham số mặc định &lt;i&gt;self&lt;/i&gt; hay &lt;i&gt;cls&lt;/i&gt;.&lt;br&gt;• &lt;b&gt;Ứng dụng:&lt;/b&gt; Thường dùng để xây dựng các hàm tiện ích (Utility functions) mang tính chất độc lập logic nhưng vẫn có liên quan đến ngữ cảnh của lớp (Ví dụ: Hàm kiểm tra định dạng email, hàm đổi đơn vị)." vertex="1">
+          <mxGeometry height="160" width="440" x="1660" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-10" edge="1" parent="1" source="GIEQ088IL78SXEgQTfQz-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="GIEQ088IL78SXEgQTfQz-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 05: Tính đóng gói (Encapsulation)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Mục đích:&lt;/b&gt; Bảo vệ trạng thái nội bộ của đối tượng, ngăn chặn code từ bên ngoài thay đổi trực tiếp dữ liệu một cách tùy tiện.&lt;br&gt;• &lt;b&gt;Cơ chế Access Modifier trong Python:&lt;/b&gt;&lt;br&gt;  - &lt;i&gt;Public:&lt;/i&gt; Thuộc tính bình thường, truy cập tự do ở mọi nơi.&lt;br&gt;  - &lt;i&gt;Protected (&lt;b&gt;_&lt;/b&gt;one_underscore):&lt;/i&gt; Chỉ nên truy cập trong nội bộ lớp và lớp con (mang tính quy ước ngầm định).&lt;br&gt;  - &lt;i&gt;Private (&lt;b&gt;__&lt;/b&gt;two_underscores):&lt;/i&gt; Bị ẩn hoàn toàn bên ngoài nhờ cơ chế &lt;i&gt;Name Mangling&lt;/i&gt;. Không thể gọi trực tiếp từ bên ngoài lớp.&lt;br&gt;• &lt;b&gt;Cách tương tác an toàn (Getter &amp;amp; Setter):&lt;/b&gt;&lt;br&gt;  - Viết các hàm công khai để đọc dữ liệu (&lt;b&gt;Getter&lt;/b&gt;) và kiểm tra điều kiện hợp lệ trước khi ghi đè dữ liệu (&lt;b&gt;Setter&lt;/b&gt;)." vertex="1">
+          <mxGeometry height="200" width="450" x="1660" y="1215" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-12" edge="1" parent="1" source="GIEQ088IL78SXEgQTfQz-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.85;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="GIEQ088IL78SXEgQTfQz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620" y="1155" />
+              <mxPoint x="1885" y="1165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;📌 QUY TẮC THỰC HÀNH TỐT KHI VIẾT CLASS&lt;/b&gt;&lt;br&gt;1. Luôn khai báo thuộc tính private (&lt;i&gt;__thuoc_tinh&lt;/i&gt;) nếu thuộc tính đó không muốn cho phép sửa tự do.&lt;br&gt;2. Dùng phương thức đối tượng (có &lt;i&gt;self&lt;/i&gt;) khi cần đọc/ghi dữ liệu liên quan trực tiếp đến trạng thái của Object.&lt;br&gt;3. Dùng &lt;i&gt;@staticmethod&lt;/i&gt; khi viết một hàm xử lý tính toán chung độc lập hoàn toàn, không cần đụng đến dữ liệu &lt;i&gt;self&lt;/i&gt;." vertex="1">
+          <mxGeometry height="90" width="570" x="1115" y="1455" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEQ088IL78SXEgQTfQz-14" edge="1" parent="1" source="GIEQ088IL78SXEgQTfQz-2" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="GIEQ088IL78SXEgQTfQz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="1245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
