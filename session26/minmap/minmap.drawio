@@ -1,0 +1,75 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="LK811neGvB2CqZJdDJqJ">
+    <mxGraphModel dx="970" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=3;fontStyle=1" value="SESSION 26:&lt;br&gt;&lt;b&gt;OOP NÂNG CAO&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="220" x="1180" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 01: Tính kế thừa &amp;amp; Hàm super()&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Lớp con (Child) thừa hưởng lại các thuộc tính và phương thức của lớp cha (Parent), giúp tái sử dụng mã nguồn.&lt;br&gt;• &lt;b&gt;Hàm super():&lt;/b&gt; Dùng để gọi các phương thức hoặc hàm khởi tạo của lớp cha trực tiếp từ lớp con.&lt;br&gt;• &lt;b&gt;Ứng dụng:&lt;/b&gt; Mở rộng tính năng của lớp cha mà không cần viết lại toàn bộ code (Ví dụ: &lt;i&gt;super().__init__()&lt;/i&gt; để kế thừa thuộc tính)." vertex="1">
+          <mxGeometry height="130" width="440" x="580" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-3" edge="1" parent="1" source="xTO5O1rz9n0lOQxQJtJ7-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="xTO5O1rz9n0lOQxQJtJ7-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="460" />
+              <mxPoint x="800" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 02: Đa kế thừa &amp;amp; MRO&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Đa kế thừa (Multiple Inheritance):&lt;/b&gt; Một lớp con có thể kế thừa từ nhiều lớp cha cùng lúc (&lt;i&gt;class Child(A, B)&lt;/i&gt;).&lt;br&gt;• &lt;b&gt;MRO (Method Resolution Order):&lt;/b&gt; Thứ tự ưu tiên mà Python tìm kiếm phương thức khi các lớp cha có phương thức trùng tên nhau.&lt;br&gt;• &lt;b&gt;Cơ chế:&lt;/b&gt; Python sử dụng thuật toán &lt;b&gt;C3 Linearization&lt;/b&gt;. Để kiểm tra thứ tự, dùng thuộc tính &lt;i&gt;ClassName.__mro__&lt;/i&gt; hoặc hàm &lt;i&gt;help(ClassName)&lt;/i&gt;." vertex="1">
+          <mxGeometry height="130" width="440" x="1550" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-5" edge="1" parent="1" source="xTO5O1rz9n0lOQxQJtJ7-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="xTO5O1rz9n0lOQxQJtJ7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="460" />
+              <mxPoint x="1770" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 03: Tính đa hình &amp;amp; Duck Typing&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Tính đa hình (Polymorphism):&lt;/b&gt; Khả năng các đối tượng khác nhau thực thi cùng một phương thức nhưng theo cách riêng của chúng.&lt;br&gt;• &lt;b&gt;Duck Typing:&lt;/b&gt; Tư duy &quot;Nếu nó đi như một con vịt và kêu như một con vịt, thì nó là một con vịt&quot;.&lt;br&gt;• &lt;b&gt;Ý nghĩa:&lt;/b&gt; Python không quan tâm kiểu dữ liệu của đối tượng là gì, chỉ quan tâm đối tượng đó có &lt;b&gt;sở hữu phương thức&lt;/b&gt; đang được gọi hay không." vertex="1">
+          <mxGeometry height="120" width="430" x="1560" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-7" edge="1" parent="1" source="xTO5O1rz9n0lOQxQJtJ7-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="xTO5O1rz9n0lOQxQJtJ7-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 04: Operator Overloading (Nạp chồng toán tử)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Định nghĩa lại hành vi của các toán tử (+, -, *, ==, &amp;lt;,...) cho các đối tượng tự tạo từ Class.&lt;br&gt;• &lt;b&gt;Dunder Methods:&lt;/b&gt; Các hàm có gạch dưới kép đặc biệt giúp Python nhận diện toán tử:&lt;br&gt;  - &lt;i&gt;__add__(self, other):&lt;/i&gt; Cho phép dùng dấu + giữa 2 đối tượng.&lt;br&gt;  - &lt;i&gt;__str__(self):&lt;/i&gt; Tùy chỉnh nội dung khi in đối tượng bằng lệnh print().&lt;br&gt;  - &lt;i&gt;__eq__(self, other):&lt;/i&gt; Định nghĩa logic so sánh bằng ==." vertex="1">
+          <mxGeometry height="140" width="440" x="580" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-9" edge="1" parent="1" source="xTO5O1rz9n0lOQxQJtJ7-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="xTO5O1rz9n0lOQxQJtJ7-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=1.5;" value="&lt;b&gt;Lesson 05: Abstract Base Classes (ABC)&lt;/b&gt;&lt;br&gt;• &lt;b&gt;Khái niệm:&lt;/b&gt; Lớp trừu tượng đóng vai trò là một &#39;bản thiết kế&#39; bắt buộc cho các lớp con. Không thể tạo đối tượng trực tiếp từ lớp ABC.&lt;br&gt;• &lt;b&gt;Cách dùng:&lt;/b&gt; Kế thừa từ &lt;i&gt;abc.ABC&lt;/i&gt; và dùng decorator &lt;b&gt;@abstractmethod&lt;/b&gt;.&lt;br&gt;• &lt;b&gt;Vai trò:&lt;/b&gt; Ép buộc các lớp con phải thực thi (override) các phương thức trừu tượng đã định nghĩa, đảm bảo tính thống nhất của hệ thống." vertex="1">
+          <mxGeometry height="120" width="440" x="1070" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-11" edge="1" parent="1" source="xTO5O1rz9n0lOQxQJtJ7-1" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=2;" target="xTO5O1rz9n0lOQxQJtJ7-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=12;fillColor=#ffffff;fontColor=#000000;strokeColor=#000000;strokeWidth=2;" value="&lt;b&gt;🚀 TỔNG KẾT TƯ DUY LẬP TRÌNH NÂNG CAO&lt;/b&gt;&lt;br&gt;1. Dùng &lt;b&gt;Inheritance&lt;/b&gt; để giảm trùng lặp code.&lt;br&gt;2. Dùng &lt;b&gt;Polymorphism&lt;/b&gt; để code linh hoạt hơn (Duck Typing).&lt;br&gt;3. Dùng &lt;b&gt;ABC&lt;/b&gt; để định hướng và bắt buộc cấu trúc cho dự án lớn.&lt;br&gt;4. Tận dụng &lt;b&gt;Operator Overloading&lt;/b&gt; để code trở nên tự nhiên và dễ đọc hơn." vertex="1">
+          <mxGeometry height="90" width="470" x="1055" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="xTO5O1rz9n0lOQxQJtJ7-13" edge="1" parent="1" source="xTO5O1rz9n0lOQxQJtJ7-10" style="edgeStyle=curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=1.5;strokeDasharray=3;" target="xTO5O1rz9n0lOQxQJtJ7-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
